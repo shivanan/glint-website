@@ -8,6 +8,12 @@ export default function PrivacyPolicyPage() {
         This Privacy Policy explains how Glint ("the App") handles information when you use the App on macOS.
       </p>
 
+      <p>
+        <strong>
+          Glint does not share any data whatsoever with the developer or with any third party.
+        </strong>
+      </p>
+
       <h2>1. Information We Collect</h2>
       <p>
         Glint is designed to minimize data collection. The App may process file paths, file names, and supported file
@@ -18,13 +24,15 @@ export default function PrivacyPolicyPage() {
       <h2>2. Local Processing</h2>
       <p>
         File handling logic is performed locally on your Mac. The App does not intentionally collect or store the
-        contents of your documents on developer-controlled servers.
+        contents of your documents on developer-controlled servers. No file contents, file metadata, usage data, or
+        personal information is transmitted to the developer or any third party by Glint.
       </p>
 
       <h2>3. Third-Party Services</h2>
       <p>
         When you choose to open a file with Google Docs or Google Sheets, your use of Google services is subject to
-        Google&apos;s own terms and privacy policy. Glint does not control how third-party services process data.
+        Google&apos;s own terms and privacy policy. Glint does not send your data to third parties. Any interaction with
+        Google services occurs only as a direct result of your action to open a file in those services.
       </p>
 
       <h2>4. Analytics and Diagnostics</h2>

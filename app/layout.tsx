@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Source_Sans_3 } from "next/font/google";
+import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 
-const sourceSans3 = Source_Sans_3({
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-body"
 });
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={sourceSans3.variable}>
+      <body className={inter.variable}>
         <header className="site-header">
           <Link className="brand" href="/">
             <img src="/logo.svg" alt="Glint logo" width={32} height={32} />
