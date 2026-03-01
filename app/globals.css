@@ -45,8 +45,8 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  font-family: var(--font-display), sans-serif;
-  font-weight: 700;
+  font-family: var(--font-body), sans-serif;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ a {
 .top-nav a {
   text-decoration: none;
   color: var(--muted);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .hero {
@@ -79,14 +79,15 @@ a {
   letter-spacing: 0.12em;
   color: var(--brand-1);
   font-size: 0.75rem;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0;
 }
 
 .hero h1 {
-  font-family: var(--font-display), sans-serif;
+  font-family: var(--font-body), sans-serif;
   font-size: clamp(2rem, 5vw, 3.75rem);
   line-height: 1.05;
+  font-weight: 500;
   margin: 0.5rem 0 1rem;
 }
 
@@ -112,7 +113,7 @@ a {
   border-radius: 999px;
   padding: 0.8rem 1.2rem;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .button-primary {
@@ -137,8 +138,79 @@ a {
 }
 
 .hero-card h2 {
-  font-family: var(--font-display), sans-serif;
+  font-family: var(--font-body), sans-serif;
+  font-weight: 600;
   margin: 1rem 0 0.4rem;
+}
+
+.how-it-works {
+  max-width: 1120px;
+  margin: 0 auto 3rem;
+  padding: 0 1.25rem 1rem;
+}
+
+.how-header h2 {
+  font-size: clamp(1.6rem, 3.6vw, 2.4rem);
+  margin: 0.45rem 0 1rem;
+  line-height: 1.15;
+}
+
+.steps-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.step-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: stretch;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 1rem;
+  box-shadow: 0 10px 26px rgba(28, 53, 117, 0.08);
+}
+
+.step-number {
+  margin: 0;
+  color: var(--brand-1);
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  font-size: 0.8rem;
+}
+
+.step-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.step-content h3 {
+  margin: 0.45rem 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.step-content p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.step-shot {
+  border: 1px dashed #b8c8ff;
+  border-radius: 16px;
+  min-height: 190px;
+  background:
+    linear-gradient(155deg, #f1f5ff, #f8fbff),
+    repeating-linear-gradient(45deg, #e5edff 0 12px, #edf2ff 12px 24px);
+  color: #5770c7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 500;
 }
 
 .hero-card p {
@@ -161,16 +233,18 @@ a {
 }
 
 .legal-page h1 {
-  font-family: var(--font-display), sans-serif;
+  font-family: var(--font-body), sans-serif;
   font-size: clamp(2rem, 3vw, 2.5rem);
+  font-weight: 500;
   margin-bottom: 0.2rem;
 }
 
 .legal-page h2 {
-  font-family: var(--font-display), sans-serif;
+  font-family: var(--font-body), sans-serif;
   margin-top: 1.75rem;
   margin-bottom: 0.2rem;
   font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .legal-page p {
@@ -189,16 +263,39 @@ a {
   .hero-card {
     max-width: 560px;
   }
+
+  .step-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .step-shot {
+    min-height: 170px;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .hero-copy,
-  .hero-card {
+  .hero-card,
+  .step-section {
     animation: reveal 0.6s ease both;
   }
 
   .hero-card {
     animation-delay: 0.12s;
+  }
+
+  .step-section:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+
+  .step-section:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+
+  .step-section:nth-child(4) {
+    animation-delay: 0.3s;
   }
 }
 

@@ -5,8 +5,8 @@ export default function TermsPage() {
       <p>Effective date: March 1, 2026</p>
 
       <p>
-        These Terms of Service ("Terms") govern your use of GSuite Router ("the App"). By downloading or using the
-        App, you agree to these Terms.
+        These Terms of Service ("Terms") govern your use of Glint ("the App"). By downloading or using the App, you
+        agree to these Terms.
       </p>
 
       <h2>1. License</h2>
@@ -65,7 +65,8 @@ export default function TermsPage() {
 
       <h2>10. Contact</h2>
       <p>
-        For questions about these Terms, contact: <a href="mailto:support@example.com">support@example.com</a>
+        For questions about these Terms, contact:{" "}
+        <a href="mailto:h.shivanan@gmail.com">h.shivanan@gmail.com</a>
       </p>
     </article>
   );

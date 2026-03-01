@@ -5,15 +5,14 @@ export default function PrivacyPolicyPage() {
       <p>Effective date: March 1, 2026</p>
 
       <p>
-        This Privacy Policy explains how GSuite Router ("the App") handles information when you use the App on
-        macOS.
+        This Privacy Policy explains how Glint ("the App") handles information when you use the App on macOS.
       </p>
 
       <h2>1. Information We Collect</h2>
       <p>
-        GSuite Router is designed to minimize data collection. The App may process file paths, file names, and
-        supported file types (.docx and .xlsx) locally on your device in order to route files from Finder to Google
-        Docs or Google Sheets.
+        Glint is designed to minimize data collection. The App may process file paths, file names, and supported file
+        types (.docx and .xlsx) locally on your device in order to route files from Finder to Google Docs or Google
+        Sheets.
       </p>
 
       <h2>2. Local Processing</h2>
@@ -25,13 +24,13 @@ export default function PrivacyPolicyPage() {
       <h2>3. Third-Party Services</h2>
       <p>
         When you choose to open a file with Google Docs or Google Sheets, your use of Google services is subject to
-        Google&apos;s own terms and privacy policy. GSuite Router does not control how third-party services process data.
+        Google&apos;s own terms and privacy policy. Glint does not control how third-party services process data.
       </p>
 
       <h2>4. Analytics and Diagnostics</h2>
       <p>
-        Unless explicitly enabled by you in a future release, GSuite Router does not use third-party analytics,
-        advertising SDKs, or user tracking technologies.
+        Unless explicitly enabled by you in a future release, Glint does not use third-party analytics, advertising
+        SDKs, or user tracking technologies.
       </p>
 
       <h2>5. Data Retention</h2>
@@ -48,8 +47,7 @@ export default function PrivacyPolicyPage() {
 
       <h2>7. Children&apos;s Privacy</h2>
       <p>
-        GSuite Router is not directed to children under 13 and does not knowingly collect personal information from
-        children.
+        Glint is not directed to children under 13 and does not knowingly collect personal information from children.
       </p>
 
       <h2>8. Changes to This Policy</h2>
@@ -60,7 +58,8 @@ export default function PrivacyPolicyPage() {
 
       <h2>9. Contact</h2>
       <p>
-        For privacy-related questions, contact: <a href="mailto:support@example.com">support@example.com</a>
+        For privacy-related questions, contact:{" "}
+        <a href="mailto:h.shivanan@gmail.com">h.shivanan@gmail.com</a>
       </p>
     </article>
   );

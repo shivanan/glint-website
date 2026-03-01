@@ -1,6 +1,6 @@
-# GSuite Router Website
+# Glint Website
 
-Marketing site for **GSuite Router**, a macOS utility app that opens `.docx` and `.xlsx` files from Finder in Google Docs/Sheets.
+Marketing site for **Glint**, a macOS utility app that opens `.docx` and `.xlsx` files from Finder in Google Docs/Sheets.
 
 ## Run locally
 
