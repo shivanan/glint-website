@@ -35,6 +35,7 @@ export default function RootLayout({
             <Link href={DOWNLOAD_URL}>Download</Link>
             <Link href="/privacy">Privacy</Link>
             <Link href="/terms">Terms</Link>
+            <Link href='https://docs.google.com/forms/d/e/1FAIpQLSdNNIsng6iL0GhSIDDuLNa7z8cTz0enVDzPE4CoIbCZVz5tGA/viewform?usp=publish-editor'>Contact</Link>
           </nav>
         </header>
         <main>{children}</main>
