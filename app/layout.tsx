@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import Script from "next/script";
+import { DOWNLOAD_URL } from "./page";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
             <span>Glint</span>
           </Link>
           <nav className="top-nav" aria-label="Main navigation">
+            <Link href={DOWNLOAD_URL}>Download</Link>
             <Link href="/privacy">Privacy</Link>
             <Link href="/terms">Terms</Link>
           </nav>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const DOWNLOAD_URL = "https://vgo7rwf0zaioakwd.public.blob.vercel-storage.com/Glint-0.1.0.dmg";
+export const DOWNLOAD_URL = "https://vgo7rwf0zaioakwd.public.blob.vercel-storage.com/Glint-0.1.0.dmg";
 
 export default function HomePage() {
   return (
@@ -17,9 +17,9 @@ export default function HomePage() {
             <a className="button-primary" href={DOWNLOAD_URL}>
               Download for macOS
             </a>
-            <Link className="button-secondary" href="/privacy">
+            {/* <Link className="button-secondary" href="/privacy">
               Read Privacy Policy
-            </Link>
+            </Link> */}
           </div>
         </div>
 
