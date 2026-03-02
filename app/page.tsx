@@ -38,7 +38,7 @@ export default function HomePage() {
       <section className="how-it-works" aria-labelledby="how-it-works-title">
         <div className="how-header">
           <p className="eyebrow">How It Works</p>
-          <h2 id="how-it-works-title">From Finder file to Google editor in four quick steps.</h2>
+          <h2 id="how-it-works-title">From Finder file to Google editor in a few quick steps.</h2>
         </div>
         <div className="steps-stack">
           <article className="step-section">
