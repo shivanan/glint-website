@@ -26,11 +26,11 @@ export default function HomePage() {
         <div className="hero-card" aria-label="Glint app preview">
           <img src="/logo.svg" alt="Glint app icon" width={140} height={140} />
           <h2>Glint</h2>
-          <p>Finder extension utility for Microsoft Office files and Google Workspace.</p>
+          <p>macOS utility for Microsoft Office files and Google Workspace.</p>
           <ul>
-            <li>Open DOCX in Google Docs</li>
-            <li>Open XLSX in Google Sheets</li>
-            <li>Designed for macOS workflows</li>
+            <li>Open docx files in Google Docs</li>
+            <li>Open xlsx files in Google Sheets</li>
+            <li>Support for multiple Google accounts.</li>
           </ul>
         </div>
       </section>
