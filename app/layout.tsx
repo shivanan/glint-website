@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="emUgWE38YJNjCYCuZjRiFrGRCMcRyVFh-46pU-kYYPk" />
+      </head>
       <body className={inter.variable}>
         <header className="site-header">
           <Link className="brand" href="/">
