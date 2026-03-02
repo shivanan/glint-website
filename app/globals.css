@@ -155,7 +155,11 @@ a {
   margin: 0.45rem 0 1rem;
   line-height: 1.15;
 }
-
+.faq {
+  max-width: 1120px;
+  margin: 0 auto 3rem;
+  padding: 0 1.25rem 1rem;
+}
 .steps-stack {
   display: grid;
   gap: 1rem;
@@ -200,18 +204,26 @@ a {
 }
 
 .step-shot {
-  border: 1px dashed #b8c8ff;
+  /* border: 1px dashed #b8c8ff; */
   border-radius: 16px;
   min-height: 190px;
-  background:
-    linear-gradient(155deg, #f1f5ff, #f8fbff),
-    repeating-linear-gradient(45deg, #e5edff 0 12px, #edf2ff 12px 24px);
+  /* background: */
+    /* linear-gradient(155deg, #f1f5ff, #f8fbff), */
+    /* repeating-linear-gradient(45deg, #e5edff 0 12px, #edf2ff 12px 24px); */
+  background: white;
   color: #5770c7;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 0.95rem;
   font-weight: 400;
+}
+.step-shot img {
+  height: 100%;
+  object-fit: contain;
+  box-shadow: 5px 3px 13px 1px #00000075;
+  border-radius: 10px;
+  max-width: 100%;
 }
 
 .hero-card p {
@@ -297,6 +309,15 @@ a {
 
   .step-section:nth-child(4) {
     animation-delay: 0.3s;
+  }
+    .step-section:nth-child(5) {
+    animation-delay: 0.4s;
+  }
+    .step-section:nth-child(6) {
+    animation-delay: 0.5s;
+  }
+    .step-section:nth-child(7) {
+    animation-delay: 0.6s;
   }
 }
 
