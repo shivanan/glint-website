@@ -10,8 +10,13 @@ export default function PrivacyPolicyPage() {
 
       <p>
         <strong>
-          Glint does not share any data whatsoever with the developer or with any third party.
+          Glint (the macOS app) does not share any data whatsoever with the developer or with any third party.
         </strong>
+      </p>
+
+      <p>
+        This website for Glint may use Google Analytics to understand aggregate website traffic and usage. Google
+        Analytics applies to this website only and does not apply to the Glint macOS app.
       </p>
 
       <h2>1. Information We Collect</h2>
@@ -37,8 +42,10 @@ export default function PrivacyPolicyPage() {
 
       <h2>4. Analytics and Diagnostics</h2>
       <p>
-        Unless explicitly enabled by you in a future release, Glint does not use third-party analytics, advertising
-        SDKs, or user tracking technologies.
+        The Glint macOS app does not use third-party analytics, advertising SDKs, or user tracking technologies. The
+        Glint website uses Google Analytics to collect website usage information such as pages visited, approximate
+        location, browser/device details, and interaction metrics. This website analytics data is processed by Google
+        under Google&apos;s terms and privacy policy.
       </p>
 
       <h2>5. Data Retention</h2>
